@@ -57,8 +57,12 @@ const QueryAnalyticsPanel: FC = () => {
   );
 };
 
-export default (props) => (
-  <UrlParametersProvider {...props}>
-    <QueryAnalyticsPanel />
-  </UrlParametersProvider>
-);
+export default (props) => {
+  console.log(props);
+
+  return (
+    <UrlParametersProvider {...props}>
+      <QueryAnalyticsPanel />
+    </UrlParametersProvider>
+  );
+};
