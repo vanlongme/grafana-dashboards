@@ -61,7 +61,7 @@ export const Messages = {
     advanced: 'Advanced settings',
     ssh: 'SSH key',
     alertManager: 'Alertmanager integration',
-    signUp: 'Sign up',
+    platformAccount: 'Percona Platform',
   },
   tooltipLinkText: 'Read more'
 };

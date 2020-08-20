@@ -22,5 +22,5 @@ export enum TabKeys {
   advanced = 'advanced',
   ssh = 'ssh',
   alertManager = 'alertManager',
-  signUp = 'signUp',
+  platformAccount = 'platformAccount',
 }
