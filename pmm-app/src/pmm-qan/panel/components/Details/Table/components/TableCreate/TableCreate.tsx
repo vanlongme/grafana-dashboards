@@ -2,7 +2,7 @@ import React, {
   FC, useCallback, useEffect, useState
 } from 'react';
 import { Overlay } from 'shared/components/Elements/Overlay/Overlay';
-import { HighlightWrapper } from 'shared/components/Elements/HighlightWrapper/HighlightWrapper';
+import { HighlightWrapper } from 'pmm-qan/panel/components/HighlightWrapper/HighlightWrapper';
 import { ActionResult, Databases } from '../../../Details.types';
 import { mysqlMethods, postgresqlMethods } from '../../../database-models';
 import { useActionResult } from '../../../Details.tools';
